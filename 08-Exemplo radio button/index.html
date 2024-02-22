@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo 01</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <input type="text" placeholder="Nome" />
+
+    <strong>Escolha a opção:</strong>
+    <div class="div-input-radio">
+      <div class="div-pj">
+        <input type="radio" id="company" name="type" value="company"  />
+        <label for="company">Pessoa Jurídica</label>
+      </div>
+      <div class="div-pf">
+        <input type="radio" id="person" name="type" value="person" />
+        <label for="person">Pessoa Física</label>
+      </div>
+    </div>
+    <input id="input-cnpj" class="hide" type="text" placeholder="CNPJ" />
+    <input id="input-cpf" class="hide" type="text" placeholder="CPF" />
+  </body>
+  <script type="text/javascript" src="./js/script.js"></script>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inputs</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <form>
+      <label for="input-name">Nome</label>
+      <input id="input-name" type="text" placeholder="Digite o seu nome" required />
+      <div class="div-select-age">
+        <label for="select-age">Idade</label>
+        <select name="select" id="select-age">
+          <option value="" selected disabled>Selecione a sua idade</option>
+          <option value="0-18">Minha idade é entre 0 e 18</option>
+          <option value="19-30">Minha idade é entre 19 e 30</option>
+          <option value="31">Minha idade é maior que 30</option>
+        </select>
+      </div>
+      <button>Enviar</button>
+    </form>
+  </body>
+  <script type="text/javascript" src="./js/script.js"></script>
+</html>

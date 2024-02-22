@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.div-input-radio {
+  display: flex;
+  gap: 1rem;
+  margin: 10px 0 10px 0;
+}
+
+.div-input-checkbox {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+select {
+  padding: 10px;
+}
+
+.div-select-age {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 10px 0 10px 0;
+}
