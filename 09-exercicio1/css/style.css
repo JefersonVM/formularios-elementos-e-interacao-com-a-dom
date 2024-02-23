@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100vh;
+}
+
+input {
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.div-accept {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.button-cadastrar {
+  padding: 10px;
+  background-color: #f1356d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+strong {
+  margin-top: 16px;
+}
